@@ -3,6 +3,11 @@
 ## Description
 This project is a simple example of microservices using Java, Spring Boot, RabbitMQ, PostgreSQL and Gmail.
 
+## Routes
+| Method | Endpoint | Description |
+| ------ | -------- | ----------- |
+| POST   | /users   | Save user   |
+
 ## Communication
 ![Communication-image](public/images/Client.png)
 
