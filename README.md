@@ -4,7 +4,7 @@
 This project is a simple example of microservices using Java, Spring Boot, RabbitMQ, PostgreSQL and Gmail.
 
 ## Communication
-![Communication](public/images/Client.png)
+![Communication-image](public/images/Client.png)
 
 ## Technologies
 - Java;
