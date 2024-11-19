@@ -4,10 +4,21 @@
 This project is a simple example of microservices using Java, Spring Boot, RabbitMQ, PostgreSQL and Gmail.
 
 ## Structure
-Client -> POST /users -> USER MICROSERVICE -> BROKER -> EMAIL MICROSERVICE -> EMAIL
-                         1. Save user.                  2. Listen message.
-                         3. Publish message.            4. Send email.
-                                                        5. Save email.
+```
+.
+├── Client ->
+│   ├── USER MICROSERVICE ->
+│   │   ├── 1. Save user
+│   │   └── 3. Publish message
+│   ├── BROKER ->
+│   ├── EMAIL MICROSERVICE ->
+│   │   ├── 2. Listen message
+│   │   ├── 4. Send email
+│   │   └── 5. Save email
+│   └── EMAIL.
+.
+
+```
 
 ## Technologies
 - Java;
