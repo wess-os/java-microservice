@@ -3,9 +3,8 @@
 ## Description
 This project is a simple example of microservices using Java, Spring Boot, RabbitMQ, PostgreSQL and Gmail.
 
-## Structure
+## Communication
 ```
-.
 ├── Client ->
 │   ├── USER MICROSERVICE ->
 │   │   ├── 1. Save user
@@ -15,9 +14,7 @@ This project is a simple example of microservices using Java, Spring Boot, Rabbi
 │   │   ├── 2. Listen message
 │   │   ├── 4. Send email
 │   │   └── 5. Save email
-│   └── EMAIL.
-.
-
+│   └── EMAIL
 ```
 
 ## Technologies
